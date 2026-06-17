@@ -1,7 +1,7 @@
 # Online Tutor Booking System
 ## Документы проекта
 
-- [Бизнес-требования](tutor-booking-system/business-requirements.md)
+- [Бизнес-требования](business-requirements.md)
 - Функциональные требования
 - Нефункциональные требования
 - User Stories
