@@ -2,7 +2,7 @@
 ## Документы проекта
 
 - [Бизнес-требования](business-requirements.md)
-- Функциональные требования
+- [Функциональные требования](functional-requirements.md)
 - Нефункциональные требования
 - User Stories
 - Use Cases
