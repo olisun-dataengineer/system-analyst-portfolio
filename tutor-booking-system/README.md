@@ -6,7 +6,7 @@
 - [Бизнес-требования](business-requirements.md)
 - [Функциональные требования](functional-requirements.md)
 - [Нефункциональные требования](non-functional-requirements.md)
-- [User Stories](user-stories.md)
+- [User Stories и Use Cases](user-stories.md)
 - Модель данных
 - API Specification
 - BPMN-диаграмма
