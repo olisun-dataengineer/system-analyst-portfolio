@@ -82,6 +82,55 @@
 | sent_at    | datetime   | Дата и время отправки уведомления.                                                                |
 
 ## 4. ER - модель
+```mermaid
+erDiagram
+    USERS ||--o{ TIME_SLOTS : creates
+    USERS ||--o{ BOOKINGS : makes
+    TIME_SLOTS ||--o{ BOOKINGS : contains
+    USERS ||--o{ NOTIFICATIONS : receives
+    BOOKINGS ||--o{ NOTIFICATIONS : generates
+
+    USERS {
+        int id PK
+        string full_name
+        string email
+        string phone
+        string password_hash
+        string role
+        string status
+        datetime created_at
+    }
+
+    TIME_SLOTS {
+        int id PK
+        int tutor_id FK
+        datetime start_time
+        datetime end_time
+        string status
+        string comment
+        datetime created_at
+    }
+
+    BOOKINGS {
+        int id PK
+        int slot_id FK
+        int student_id FK
+        string status
+        datetime created_at
+        datetime cancelled_at
+    }
+
+    NOTIFICATIONS {
+        int id PK
+        int user_id FK
+        int booking_id FK
+        string type
+        string text
+        string status
+        datetime created_at
+        datetime sent_at
+    }
+```
 
 
 ## 5. Бизнес-правила данных
