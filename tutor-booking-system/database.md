@@ -85,11 +85,11 @@
 
 ```mermaid
 erDiagram
-    USER ||--o{ TIME_SLOT : creates
-    USER ||--o{ BOOKING : makes
-    TIME_SLOT ||--o| BOOKING : has
-    USER ||--o{ NOTIFICATION : receives
-    BOOKING ||--o{ NOTIFICATION : generates
+    USERS ||--o{ TIME_SLOTS : creates
+    USERS ||--o{ BOOKINGS : makes
+    TIME_SLOTS ||--o{ BOOKINGS : contains
+    USERS ||--o{ NOTIFICATIONS : receives
+    BOOKINGS ||--o{ NOTIFICATIONS : generates
 
     USER {
         int id PK
