@@ -83,8 +83,6 @@
 
 ## 4. ER - модель
 
-## 5. ER-диаграмма
-
 ```mermaid
 erDiagram
     USER ||--o{ TIME_SLOT : creates
