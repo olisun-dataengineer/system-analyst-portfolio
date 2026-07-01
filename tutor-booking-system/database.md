@@ -82,8 +82,6 @@
 | sent_at    | datetime   | Дата и время отправки уведомления.                                                                |
 
 ## 4. ER - модель
-
-```mermaid
 ```mermaid
 erDiagram
     USERS ||--o{ TIME_SLOTS : creates
