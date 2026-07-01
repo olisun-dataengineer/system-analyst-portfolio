@@ -81,7 +81,61 @@
 | created_at | datetime   | Дата и время создания уведомления.                                                                |
 | sent_at    | datetime   | Дата и время отправки уведомления.                                                                |
 
-## 4. Бизнес-правила данных
+## 4. ER - модель
+
+## 5. ER-диаграмма
+
+```mermaid
+erDiagram
+    USER ||--o{ TIME_SLOT : creates
+    USER ||--o{ BOOKING : makes
+    TIME_SLOT ||--o| BOOKING : has
+    USER ||--o{ NOTIFICATION : receives
+    BOOKING ||--o{ NOTIFICATION : generates
+
+    USER {
+        int id PK
+        string full_name
+        string email
+        string phone
+        string password_hash
+        enum role
+        enum status
+        datetime created_at
+    }
+
+    TIME_SLOT {
+        int id PK
+        int tutor_id FK
+        datetime start_time
+        datetime end_time
+        enum status
+        string comment
+        datetime created_at
+    }
+
+    BOOKING {
+        int id PK
+        int slot_id FK
+        int student_id FK
+        enum status
+        datetime created_at
+        datetime cancelled_at
+    }
+
+    NOTIFICATION {
+        int id PK
+        int user_id FK
+        int booking_id FK
+        enum type
+        string text
+        enum status
+        datetime created_at
+        datetime sent_at
+    }
+```
+
+## 5. Бизнес-правила данных
 
 * Один пользователь может иметь только одну роль в системе.
 * Пользователь со статусом `blocked` не может войти в систему.
