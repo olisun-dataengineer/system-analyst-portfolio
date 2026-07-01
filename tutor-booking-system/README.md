@@ -7,7 +7,7 @@
 - [Функциональные требования](functional-requirements.md)
 - [Нефункциональные требования](non-functional-requirements.md)
 - [User Stories и Use Cases](user-stories.md)
-- Модель данных
+- [Модель данных](database.md)
 - API Specification
 - BPMN-диаграмма
 - ER-диаграмма
