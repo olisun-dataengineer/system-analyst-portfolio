@@ -8,6 +8,7 @@
 - [Нефункциональные требования](non-functional-requirements.md)
 - [User Stories и Use Cases](user-stories.md)
 - [Модель данных](database.md)
+- Требования к пользовательскому интерфейсу
 - API Specification
 - BPMN-диаграмма
 - ER-диаграмма
