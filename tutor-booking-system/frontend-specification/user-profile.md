@@ -6,11 +6,10 @@
 ## Макет экранной формы:
 
 ### Макет профиля ученика:
-<img width="1448" height="1086" alt="ChatGPT Image 2 июл  2026 г , 07_04_38" src="https://github.com/user-attachments/assets/81deef60-704a-4d38-bdd0-103ecde6bad6" />
+<img width="1448" height="1086" alt="ChatGPT Image 2 июл  2026 г , 07_04_38" src="https://github.com/user-attachments/assets/3221a766-04a3-47de-b006-094e103a55ef" />
 
 ### Макет профиля репетитора:
-
-<img width="1448" height="1086" alt="ChatGPT Image 2 июл  2026 г , 07_19_01" src="https://github.com/user-attachments/assets/55e265ec-9401-4d8b-994f-4156a089ee0a" />
+<img width="1448" height="1086" alt="ChatGPT Image 2 июл  2026 г , 07_19_01" src="https://github.com/user-attachments/assets/6d3802ad-efba-4c44-adae-c91a9d8f2b55" />
 
 ## Доступные роли:
 
