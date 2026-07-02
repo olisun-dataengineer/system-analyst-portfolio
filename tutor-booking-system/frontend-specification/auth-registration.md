@@ -13,7 +13,8 @@
 <img width="755" height="1024" alt="1" src="https://github.com/user-attachments/assets/18dd1857-8c54-4401-8552-c6ef0d1170c6" />
 <img width="755" height="1024" alt="2" src="https://github.com/user-attachments/assets/6632f43d-a102-4d53-a43b-7ee6d4e4858e" />
 
-##**Доступные роли:**
+
+### Доступные роли:
 
 * Вход в систему: ученик, репетитор, администратор.
 * Регистрация: ученик.
